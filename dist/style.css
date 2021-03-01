@@ -23,6 +23,7 @@ main {
   align-items: center;
   justify-content: center;
   style="margin: 0;"
+
 }
 
 h2 {
@@ -34,17 +35,23 @@ h2 {
 h3 {
   color: white;
   opacity: 0.5;
+  font-size: 17px;
 }
 
 .logo {
   height: 23%;
   width: 23%;
 }
+.contents{
+  height: 10rem;
+  width: 10rem;
 
-.contents {
-  height: 10%;
-  width: 10%;
-  
+}
+.links{
+    display: flex;
+    flex-wrap: wrap; /* Optional. only if you want the items to wrap */
+    justify-content: center; /* For horizontal alignment */
+    align-items: center; /* For vertical alignment */
 }
 
 .glass {
