@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: black;
+  background: rgb(0, 0, 25);
+  background: -moz-linear-gradient(250deg, rgba(0, 0, 25, 1) 0%, rgba(27, 15, 64, 1) 60%, rgba(0, 0, 47, 1) 100%);
+  background: -webkit-linear-gradient(250deg, rgba(0, 0, 25, 1) 0%, rgba(27, 15, 64, 1) 60%, rgba(0, 0, 47, 1) 100%);
+  background: linear-gradient(250deg, rgba(0, 0, 25, 1) 0%, rgba(27, 15, 64, 1) 60%, rgba(0, 0, 47, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000019", endColorstr="#00002f", GradientType=1);
+  min-height: 100vh;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  style="margin: 0;"
+
+}
+
+h2 {
+  color: white;
+  opacity: 0.8;
+  margin-bottom: 10rem;
+}
+
+h3 {
+  color: white;
+  opacity: 0.5;
+  font-size: 17px;
+}
+
+.logo {
+  height: 23%;
+  width: 23%;
+}
+.contents{
+  height: 10rem;
+  width: 10rem;
+
+}
+.links{
+    display: flex;
+    flex-wrap: wrap; /* Optional. only if you want the items to wrap */
+    justify-content: center; /* For horizontal alignment */
+    align-items: center; /* For vertical alignment */
+}
+
+.glass {
+  background: black;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(180deg, rgba(113, 102, 138, 0.5), rgba(113, 102, 138, 0.1));
+  background: -moz-linear-gradient(180deg, rgba(113, 102, 138, 0.5), rgba(113, 102, 138, 0.1));
+  background: -webkit-linear-gradient(180deg, rgba(113, 102, 138, 0.5), rgba(113, 102, 138, 0.1));
+  border-radius: 1rem;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+.rectangle1,
+.rectangle2 {
+  background: white;
+  background: linear-gradient(30deg, rgba(113, 102, 138, 0.1), rgba(113, 102, 138, 0.3));
+  background: -moz-linear-gradient(30deg, rgba(113, 102, 138, 0.1), rgba(113, 102, 138, 0.3));
+  background: -webkit-linear-gradient(30deg, rgba(113, 102, 138, 0.1), rgba(113, 102, 138, 0.3));
+  height: 5rem;
+  width: 10rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  position: absolute;
+}
+
+.rectangle1 {
+  top: 87%;
+  right: 70%;
+}
+
+.rectangle2 {
+  top: 5%;
+  left: 60%;
+}
