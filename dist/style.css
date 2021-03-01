@@ -39,8 +39,8 @@ h3 {
 }
 
 .logo {
-  height: 23%;
-  width: 23%;
+  height: 15rem;
+  width: 15rem;
 }
 .contents{
   height: 10rem;
@@ -52,6 +52,7 @@ h3 {
     flex-wrap: wrap; /* Optional. only if you want the items to wrap */
     justify-content: center; /* For horizontal alignment */
     align-items: center; /* For vertical alignment */
+    margin-bottom: 15rem;
 }
 
 .glass {
