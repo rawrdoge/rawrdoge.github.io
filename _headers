@@ -1,0 +1,26 @@
+#
+# Cache static assets for 1 year (immutable)
+#
+
+/img/*
+  Cache-Control: max-age=31536000, immutable
+
+/dist/style.css
+  Cache-Control: max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: max-age=31536000, immutable
+
+#
+# HTML files: no cache (or short cache)
+#
+
+/*.html
+  Cache-Control: max-age=0, no-cache
+
+#
+# Font files
+#
+
+/fonts/*
+  Cache-Control: max-age=31536000, immutable
